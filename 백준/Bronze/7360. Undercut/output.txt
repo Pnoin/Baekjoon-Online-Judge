@@ -1,0 +1,3 @@
+A has 5 points. B has 12 points.
+
+A has 0 points. B has 21 points.

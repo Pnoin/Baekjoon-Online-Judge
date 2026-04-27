@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if(a<=b):
+    print(250)
+else:
+    if((a-b)%c!=0):
+        print(((a-b)//c)*100+350)
+    else:
+        print(((a-b)//c)*100+250)

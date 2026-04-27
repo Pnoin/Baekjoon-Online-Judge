@@ -1,0 +1,9 @@
+n=int(input())
+temp=n
+total=0
+while(True):
+    temp=((temp%10)*10)+((((temp//10)+(temp%10)))%10)
+    total+=1
+    if(temp==n):
+        break
+print(total)

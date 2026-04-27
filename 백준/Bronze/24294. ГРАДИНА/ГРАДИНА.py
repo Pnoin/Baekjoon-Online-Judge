@@ -1,0 +1,5 @@
+x=int(input())
+y=int(input())
+xx=int(input())
+yy=int(input())
+print(4+2*max(x,xx)+2*(y+yy))

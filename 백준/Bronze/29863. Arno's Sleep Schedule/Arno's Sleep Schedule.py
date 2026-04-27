@@ -1,0 +1,9 @@
+total=0
+a=int(input())
+b=int(input())
+if(a>19):
+    total+=24-a
+    total+=b
+else:
+    total+=b-a
+print(total)

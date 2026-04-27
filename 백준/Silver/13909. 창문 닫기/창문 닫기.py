@@ -1,0 +1,9 @@
+n=int(input())
+total=0
+temp=1
+while(True):
+    if(temp**2>n):
+        break
+    total+=1
+    temp+=1
+print(total)

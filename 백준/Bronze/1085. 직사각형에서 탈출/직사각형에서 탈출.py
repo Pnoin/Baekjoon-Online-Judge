@@ -1,0 +1,1 @@
+x,y,w,h=map(int, input().split());least= min(w - x,h - y,x,y);print(least)

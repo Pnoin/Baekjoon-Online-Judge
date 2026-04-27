@@ -1,0 +1,69 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <complex>
+#include <cmath>
+#include <cstdio>
+#include <cstring>
+#include <sstream>
+#include <queue>
+#include <set>
+#include <map>
+#include <limits>
+#include <unordered_map>
+#include <time.h>   
+#pragma GCC optimize("O3")
+#pragma GCC optimize("Ofast")
+#pragma GCC optimize("unroll-loops")
+#pragma GCC target("avx2")
+using namespace std;
+typedef long long int ll;
+typedef unsigned long long int ull;
+typedef long double ld;
+typedef __int128_t li;
+typedef complex<double> cpx;
+const double PI = acos(-1); 
+const ll INF = 1e18;
+
+int n,k;
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+	/*
+    clock_t start,finish;
+    double duration;
+    start=clock();
+	*/
+
+    cin >> n >> k;
+    if(n==k){
+        cout << "Impossible";
+    }
+    else if(n==k+1){
+        for(int i=1; i<=n; i++){
+            cout << i << ' ';
+        }
+    }
+    else{
+        cout << k+2 << ' ';
+        for(int i=2; i<=k+1; i++){
+            cout << i << ' ';
+        }
+        for(int i=k+2; i<=n; i++){
+            if(i<n){
+                cout << i+1 << ' ';
+            }
+            else{
+                cout << 1 << ' ';
+            }
+        }
+    }
+
+	/*
+	finish=clock();
+    duration=(double)(finish-start)/CLOCKS_PER_SEC;
+    cout << duration << "초";
+    */
+}

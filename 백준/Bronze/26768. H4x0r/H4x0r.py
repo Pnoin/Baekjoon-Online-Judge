@@ -1,0 +1,7 @@
+s=input()
+s=s.replace('a','4',len(s))
+s=s.replace('e','3',len(s))
+s=s.replace('i','1',len(s))
+s=s.replace('o','0',len(s))
+s=s.replace('s','5',len(s))
+print(s)

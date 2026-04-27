@@ -1,0 +1,11 @@
+Data Set 1:
+16.56
+
+Data Set 2:
+21.20
+
+Data Set 3:
+0.00
+
+Data Set 4:
+-2.80
